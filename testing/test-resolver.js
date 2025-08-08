@@ -1,7 +1,7 @@
 // Test the commandResolver functionality with platform detection
 
 const path = require('path');
-const resolver = require('./electron/commandResolver');
+const resolver = require('../electron/commandResolver');
 
 // Mock app instance for initialization
 const mockApp = {
